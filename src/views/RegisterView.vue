@@ -1,19 +1,19 @@
 <template>
-  <BaseContent> 首页 </BaseContent>
+  <BaseContent> 注册 </BaseContent>
 </template>
-
-<script>
+    
+  <script>
 import BaseContent from "../components/BaseContent";
 
 export default {
-  name: "HomeView",
+  name: "RegisterView",
   components: {
     BaseContent,
   },
 };
 </script>
-
-<style scoped>
+    
+    <style scoped>
 .container {
   margin-top: 20px;
 }

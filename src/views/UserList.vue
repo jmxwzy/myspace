@@ -1,19 +1,19 @@
 <template>
-  <BaseContent> 首页 </BaseContent>
+  <BaseContent> 好友列表 </BaseContent>
 </template>
-
+  
 <script>
 import BaseContent from "../components/BaseContent";
 
 export default {
-  name: "HomeView",
+  name: "UserList",
   components: {
     BaseContent,
   },
 };
 </script>
-
-<style scoped>
+  
+  <style scoped>
 .container {
   margin-top: 20px;
 }
